@@ -1,0 +1,13 @@
+button {
+    width: 100px;
+    height: max-content;
+    border: 10px solid rgba(255,255,255,.5);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    column-gap: 10px;
+    margin: 20px;
+}
